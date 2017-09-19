@@ -1,0 +1,130 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+  background-color: #6C6488;
+  padding-top: 80px;
+}
+
+
+header {
+  padding: 5px 0px;
+
+}
+.navbar{
+background-color: #6BBAA7;
+}
+
+a{
+  color:#FFFFFF;
+}
+
+a:hover{
+  color:blue;
+}
+
+a.active{
+  color:blue;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 a {
+  font-weight: 700;
+  margin: 0;   
+  color: #FFFFFF;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www3.hilton.com/resources/media/hi/SNWNBHI/en_US/img/shared/full_page_image_gallery/main/HL_infinitypool_675x359_FitToBoxSmallDimension_Center.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #6BBAA7;
+  -webkit-text-stroke: 2px white;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #FFFFFF;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 5px;
+  border: 0px;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-color: #FBA100;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+p {
+  color: #ffffff;
+}
+
+h2{
+  color: #FBA100;
+}
+
+footer {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
